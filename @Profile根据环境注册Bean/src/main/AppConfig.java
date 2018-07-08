@@ -9,6 +9,11 @@ import org.springframework.util.StringValueResolver;
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 
+/**
+ * 注解@Profile也可以标记在类上
+ * 当标记在类上时，若当前环境未激活时，则该配置文件不生效。
+ */
+//@Profile("pro")
 @Configuration
 @PropertySource("classpath:/main/db.properties")
 @ComponentScan("main")
