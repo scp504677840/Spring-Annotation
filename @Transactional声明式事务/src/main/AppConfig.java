@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 
 /**
- * 注解@EnableAspectJAutoProxy使AspectJ注解起作用：自动为匹配的类生成代理对象
+ *
  */
 @Configuration
 @EnableTransactionManagement
