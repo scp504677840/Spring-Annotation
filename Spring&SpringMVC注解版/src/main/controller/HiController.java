@@ -18,4 +18,9 @@ public class HiController {
         return hiService.hi();
     }
 
+    @RequestMapping("/say")
+    public String hiJsp() {
+        return "success";
+    }
+
 }
